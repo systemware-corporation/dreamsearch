@@ -30,13 +30,19 @@
 
 &gt; [[Enter the door.-&gt;2]]</tw-passagedata><tw-passagedata pid="4" name="2.a1" tags="" position="825,825" size="100,100">*2.a1*
 
+&gt; Roll the sphere around.
+
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[Running over to the sphere with an inhuman enthusiasm, you roll it somewhere else. It keeps rolling. Underneath the paper is a note.]
 
 &gt; [[Read the note.-&gt;2.a2]]</tw-passagedata><tw-passagedata pid="5" name="2.b1" tags="" position="950,825" size="100,100">*2.b1*
 
+&gt; Jump off the top of the ramp.
+
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You run to the top of the ramp, and foolishly throw yourself off the top of it, hurtling face first to the invisible ground below. You break your neck in the process.]
 
-- DEAD END.</tw-passagedata><tw-passagedata pid="6" name="2.a2" tags="" position="825,950" size="100,100">*2.a2*
+&gt; DEAD END.</tw-passagedata><tw-passagedata pid="6" name="2.a2" tags="" position="825,950" size="100,100">*2.a2*
+
+&gt; Read the note.
 
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You pick up the note, but you cannot read its contents. It appears blank to you.]
 
@@ -46,18 +52,31 @@ You may have noticed some oddities with the system so far. Systemware has neglec
 
 Every section of the Dreamscape is labeled with an identifier at the top. To suggest a divergence in thought, join the &lt;a href=&quot;https://discord.gg/gG9WGbSpUR&quot; style=&quot;color: #888888;&quot;&gt;Community Outreach&lt;/a&gt; Discord server and leave a suggestion in the #dreamsearch channel with the *IDENTIFIER* and your *SUGGESTION*. Thank you.
 
-&gt; [[Rip apart the note.-&gt;2.a3]]</tw-passagedata><tw-passagedata pid="7" name="2" tags="" position="825,700" size="100,100">*2*
+&gt; [[Rip apart the note.-&gt;2.a3]]
+&gt; [[Read the note again with a comically large magnifying glass.-&gt;2.a2.a1]]</tw-passagedata><tw-passagedata pid="7" name="2" tags="" position="825,700" size="100,100">*2*
+
+&gt; Enter the door.
 
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You turn the handle, opening the door. It opens with an old &quot;creak&quot; noise. On the other side of the door are various white shapes. A pyramid, a sphere, a cube, a ramp.]
 
 &gt; [[Roll the sphere around.-&gt;2.a1]]
 &gt; [[Jump off the top of the ramp.-&gt;2.b1]]</tw-passagedata><tw-passagedata pid="8" name="2.a3" tags="" position="825,1075" size="100,100">*2.a3*
 
+&gt; Rip apart the note.
+
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You rip up the note. It&#39;s just a pointless piece of paper, anyway.]
 
-- ???</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="825,200" size="100,100">(b4r:&quot;solid&quot;,&quot;none&quot;)+(b4r-colour:white)[| Dreamsearch | &lt;a href=&quot;https://discord.gg/gG9WGbSpUR&quot; style=&quot;color: #888888;&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://dreamsearch.whistler.page/changelog&quot; style=&quot;color: #888888;&quot;&gt;Changelog&lt;/a&gt; |]
-(set: $version to &quot;1.0.2&quot;)
-</tw-passagedata></tw-storydata>
+&gt; ???</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="825,200" size="100,100">(b4r:&quot;solid&quot;,&quot;none&quot;)+(b4r-colour:white)[| Dreamsearch | &lt;a href=&quot;https://discord.gg/gG9WGbSpUR&quot; style=&quot;color: #888888;&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://dreamsearch.whistler.page/changelog&quot; style=&quot;color: #888888;&quot;&gt;Changelog&lt;/a&gt; |]
+(set: $version to &quot;1.1.0&quot;)
+</tw-passagedata><tw-passagedata pid="10" name="2.a2.a1" tags="" position="950,1075" size="100,100">*2.a2.a1* &lt;!--First one not submitted by me!--&gt;
+
+&gt; Read the note again with a comically large magnifying glass.
+
+(b4r:&quot;solid&quot;)+(b4r-colour:white)[You try to read the note with a magnifying glass, but you don&#39;t have one with you! Instead, you end up squinting between lines that aren&#39;t there. ...You still can&#39;t read it.]
+
+(text-style:&quot;fidget&quot;)[Fine print:] //There are always other doors!//
+
+&gt; [[Rip apart the note.-&gt;2.a3]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _createForOfIteratorHelper(e,t){var n,r="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!r){if(Array.isArray(e)||(r=_unsupportedIterableToArray(e))||t&&e&&"number"==typeof e.length)return r&&(e=r),n=0,{s:t=function(){},n:function(){return n>=e.length?{done:!0}:{done:!1,value:e[n++]}},e:function(e){throw e},f:t};throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o=!0,i=!1;return{s:function(){r=r.call(e)},n:function(){var e=r.next();return o=e.done,e},e:function(e){i=!0,a=e},f:function(){try{o||null==r.return||r.return()}finally{if(i)throw a}}}}function _slicedToArray(e,t){return _arrayWithHoles(e)||_iterableToArrayLimit(e,t)||_unsupportedIterableToArray(e,t)||_nonIterableRest()}function _nonIterableRest(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _iterableToArrayLimit(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null!=n){var r,a,o=[],i=!0,s=!1;try{for(n=n.call(e);!(i=(r=n.next()).done)&&(o.push(r.value),!t||o.length!==t);i=!0);}catch(e){s=!0,a=e}finally{try{i||null==n.return||n.return()}finally{if(s)throw a}}return o}}function _arrayWithHoles(e){if(Array.isArray(e))return e}function _toConsumableArray(e){return _arrayWithoutHoles(e)||_iterableToArray(e)||_unsupportedIterableToArray(e)||_nonIterableSpread()}function _nonIterableSpread(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _unsupportedIterableToArray(e,t){if(e){if("string"==typeof e)return _arrayLikeToArray(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Map"===(n="Object"===n&&e.constructor?e.constructor.name:n)||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?_arrayLikeToArray(e,t):void 0}}function _iterableToArray(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}function _arrayWithoutHoles(e){if(Array.isArray(e))return _arrayLikeToArray(e)}function _arrayLikeToArray(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
