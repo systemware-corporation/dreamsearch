@@ -60,14 +60,15 @@ Every section of the Dreamscape is labeled with an identifier at the top. To sug
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You turn the handle, opening the door. It opens with an old &quot;creak&quot; noise. On the other side of the door are various white shapes. A pyramid, a sphere, a cube, a ramp.]
 
 &gt; [[Roll the sphere around.-&gt;2.a1]]
-&gt; [[Jump off the top of the ramp.-&gt;2.b1]]</tw-passagedata><tw-passagedata pid="8" name="2.a3" tags="" position="825,1075" size="100,100">*2.a3*
+&gt; [[Jump off the top of the ramp.-&gt;2.b1]]
+&gt; [[Roll the sphere from the ramp.-&gt;2.c1]]</tw-passagedata><tw-passagedata pid="8" name="2.a3" tags="" position="825,1075" size="100,100">*2.a3*
 
 &gt; Rip apart the note.
 
 (b4r:&quot;solid&quot;)+(b4r-colour:white)[You rip up the note. It&#39;s just a pointless piece of paper, anyway.]
 
-&gt; ???</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="825,200" size="100,100">(b4r:&quot;solid&quot;,&quot;none&quot;)+(b4r-colour:white)[| Dreamsearch | &lt;a href=&quot;https://discord.gg/gG9WGbSpUR&quot; style=&quot;color: #888888;&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://dreamsearch.whistler.page/changelog&quot; style=&quot;color: #888888;&quot;&gt;Changelog&lt;/a&gt; |]
-(set: $version to &quot;1.1.0&quot;)
+&gt; [[Consume the shreds of paper to absorb its knowledge.-&gt;2.a4]]</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="825,200" size="100,100">(b4r:&quot;solid&quot;,&quot;none&quot;)+(b4r-colour:white)[| Dreamsearch | &lt;a href=&quot;https://discord.gg/gG9WGbSpUR&quot; style=&quot;color: #888888;&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://dreamsearch.whistler.page/changelog&quot; style=&quot;color: #888888;&quot;&gt;Changelog&lt;/a&gt; |]
+(set: $version to &quot;1.2.0&quot;)
 </tw-passagedata><tw-passagedata pid="10" name="2.a2.a1" tags="" position="950,1075" size="100,100">*2.a2.a1* &lt;!--First one not submitted by me!--&gt;
 
 &gt; Read the note again with a comically large magnifying glass.
@@ -76,7 +77,19 @@ Every section of the Dreamscape is labeled with an identifier at the top. To sug
 
 (text-style:&quot;fidget&quot;)[Fine print:] //There are always other doors!//
 
-&gt; [[Rip apart the note.-&gt;2.a3]]</tw-passagedata></tw-storydata>
+&gt; [[Rip apart the note.-&gt;2.a3]]</tw-passagedata><tw-passagedata pid="11" name="2.a4" tags="" position="825,1200" size="100,100">*2.a4*
+
+&gt; Consume the shreds of paper to absorb its knowledge.
+
+(b4r:&quot;solid&quot;)+(b4r-colour:white)[Bits at a time, you consume the shreds of paper. It tastes, of course, like paper. And now, there is no paper.]
+
+&gt; ???</tw-passagedata><tw-passagedata pid="12" name="2.c1" tags="" position="700,825" size="100,100">*2.c1*
+
+&gt; Roll the sphere from the ramp.
+
+(b4r:&quot;solid&quot;)+(b4r-colour:white)[You roll the sphere up the ramp, taking care not to let it slip. Once its at the top, you let it go, quickly ducking out of its way. It rolls off into the distance, before eventually colliding with a wall that doesn&#39;t seem to be there. A small crack in the air is left behind.]
+
+&gt; ???</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _createForOfIteratorHelper(e,t){var n,r="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!r){if(Array.isArray(e)||(r=_unsupportedIterableToArray(e))||t&&e&&"number"==typeof e.length)return r&&(e=r),n=0,{s:t=function(){},n:function(){return n>=e.length?{done:!0}:{done:!1,value:e[n++]}},e:function(e){throw e},f:t};throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o=!0,i=!1;return{s:function(){r=r.call(e)},n:function(){var e=r.next();return o=e.done,e},e:function(e){i=!0,a=e},f:function(){try{o||null==r.return||r.return()}finally{if(i)throw a}}}}function _slicedToArray(e,t){return _arrayWithHoles(e)||_iterableToArrayLimit(e,t)||_unsupportedIterableToArray(e,t)||_nonIterableRest()}function _nonIterableRest(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _iterableToArrayLimit(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null!=n){var r,a,o=[],i=!0,s=!1;try{for(n=n.call(e);!(i=(r=n.next()).done)&&(o.push(r.value),!t||o.length!==t);i=!0);}catch(e){s=!0,a=e}finally{try{i||null==n.return||n.return()}finally{if(s)throw a}}return o}}function _arrayWithHoles(e){if(Array.isArray(e))return e}function _toConsumableArray(e){return _arrayWithoutHoles(e)||_iterableToArray(e)||_unsupportedIterableToArray(e)||_nonIterableSpread()}function _nonIterableSpread(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _unsupportedIterableToArray(e,t){if(e){if("string"==typeof e)return _arrayLikeToArray(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Map"===(n="Object"===n&&e.constructor?e.constructor.name:n)||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?_arrayLikeToArray(e,t):void 0}}function _iterableToArray(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}function _arrayWithoutHoles(e){if(Array.isArray(e))return _arrayLikeToArray(e)}function _arrayLikeToArray(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
