@@ -2,7 +2,7 @@
 
 This repository holds my pet project, Dreamsearch.
 
-See [here](https://whistler.page/post/dreamsearch-announcement/) for more information.
+See [here](https://main.whistler.page/build/dreamsearch/) for more information.
 
 `index.html` is the main story.
 
